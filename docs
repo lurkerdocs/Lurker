@@ -1,0 +1,19 @@
+Lurker is a small little RPG. It requires 2 or more players and a GM (Game Master). The characters have
+two stats, ATK (Attack) and HP. ATK is randomly generated between 1 and 5 while HP is generated 
+between 10 and 15.
+
+All player's characters start in a room that is white, it has walls, a ceiling and a floor. The GM
+will create a door for the characters to walk through when him/her are ready. Both the GM and the
+players have to be ready. The door will appear when the GM is ready and the game starts when all
+players have walked through the door.
+
+GMs can create monsters with their own HP generated between 1 and 10. Every ATK point can be one HP
+point hit from a monster. The monster has an ATK of 1 while their HP is generated in the same way as a
+character but it is 1-10 instead of 10-15. When a player/monster attacks their ATK will be taken off the
+enemy's HP, (HP - ATK), if (HP - ATK) is smaller than or equal to 0 then the enemy will die the next hit.
+
+The GM can choose to heal or damage a player like with Poison Attacks (effects) or Healing Potions (items)
+however the GM can choose to not include them.
+
+The GM will end the game by creating the exit door and the first character to walk through will win but
+if all characters are dead (they lost all their HP) then the game ends and nobody wins.
